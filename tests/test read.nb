@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[      4389,        143]
-NotebookOptionsPosition[      3859,        119]
-NotebookOutlinePosition[      4205,        134]
-CellTagsIndexPosition[      4162,        131]
+NotebookDataLength[      6467,        198]
+NotebookOptionsPosition[      5714,        166]
+NotebookOutlinePosition[      6060,        181]
+CellTagsIndexPosition[      6017,        178]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -26,7 +26,8 @@ Cell[BoxData[
  CellChangeTimes->{{3.594469849647944*^9, 3.594469858509451*^9}}],
 
 Cell[BoxData["\<\"V:\\\\docs\\\\bb\\\\audio-stim\\\\tests\"\>"], "Output",
- CellChangeTimes->{3.594469859129486*^9}]
+ CellChangeTimes->{3.594469859129486*^9, 3.594646257260273*^9, 
+  3.5946475415187283`*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -115,10 +116,56 @@ Cell[BoxData[
     RowBox[{"19.`", ",", "3.`", ",", "200.`", ",", "1.`", ",", "1000.`"}], 
     "}"}]}], "}"}]], "Output",
  CellChangeTimes->{3.5944698868750734`*^9, 3.5944702568732357`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"tempFiles", "=", 
+  RowBox[{"FileNames", "[", "\"\<*.txt\>\"", "]"}]}]], "Input",
+ CellChangeTimes->{{3.594646262440569*^9, 3.5946462628315916`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", "\<\"aspLog.131128.1823.txt\"\>", "}"}]], "Output",
+ CellChangeTimes->{
+  3.594646265006716*^9, {3.5946475353703766`*^9, 3.5946475440068703`*^9}, 
+   3.5946479744844923`*^9, 3.5946482287800374`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Import", "[", 
+   RowBox[{
+    RowBox[{"tempFiles", "[", 
+     RowBox[{"[", "1", "]"}], "]"}], ",", "\"\<tsv\>\""}], "]"}], "//", 
+  "InputForm"}]], "Input",
+ CellChangeTimes->{{3.5946462666508102`*^9, 3.594646288704071*^9}}],
+
+Cell["\<\
+{{\"Audio Stimulus Play Logfile\"}, {\"Play Start Time\"}, 
+ {\"13.11.28.18:23:22\"}, {\"Stim number, Play Time, Stim Type, Duration, \\
+Amplitude, Param1, Param2, Param3, Param4\"}, 
+ {0, \"13.11.28.18:23:26\", 3, 0.2, 1., 1200., 0., 0., 0.}, 
+ {1, \"13.11.28.18:23:28\", 3, 0.2, 1., 1200., 0., 0., 0.}, 
+ {2, \"13.11.28.18:23:29\", 3, 0.2, 1., 500., 0., 0., 0.}, 
+ {3, \"13.11.28.18:23:29\", 3, 0.2, 1., 1200., 0., 0., 0.}, 
+ {4, \"13.11.28.18:23:30\", 3, 0.2, 1., 500., 0., 0., 0.}, 
+ {5, \"13.11.28.18:23:31\", 3, 0.2, 1., 1200., 0., 0., 0.}, 
+ {6, \"13.11.28.18:23:32\", 3, 0.2, 1., 1200., 0., 0., 0.}, 
+ {7, \"13.11.28.18:23:33\", 3, 0.2, 1., 500., 0., 0., 0.}, 
+ {8, \"13.11.28.18:23:34\", 3, 0.2, 1., 500., 0., 0., 0.}, 
+ {9, \"13.11.28.18:23:35\", 3, 0.2, 1., 500., 0., 0., 0.}, 
+ {10, \"13.11.28.18:23:36\", 3, 0.2, 1., 500., 0., 0., 0.}}\
+\>", "Output",
+ CellChangeTimes->{{3.594646275374309*^9, 3.5946462890950937`*^9}, 
+   3.59464754469291*^9, {3.594647969946233*^9, 3.5946479756605597`*^9}, {
+   3.5946482249708195`*^9, 3.594648229671088*^9}}]
 }, Open  ]]
 },
-WindowSize->{716, 867},
-WindowMargins->{{598, Automatic}, {Automatic, 108}},
+WindowSize->{856, 867},
+WindowMargins->{{Automatic, 458}, {Automatic, 108}},
 FrontEndVersion->"9.0 for Microsoft Windows (64-bit) (January 25, 2013)",
 StyleDefinitions->"Default.nb"
 ]
@@ -135,19 +182,26 @@ CellTagsIndex->{}
 Notebook[{
 Cell[CellGroupData[{
 Cell[579, 22, 170, 3, 31, "Input"],
-Cell[752, 27, 116, 1, 31, "Output"]
+Cell[752, 27, 165, 2, 31, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[905, 33, 226, 4, 31, "Input"],
-Cell[1134, 39, 181, 3, 31, "Output"]
+Cell[954, 34, 226, 4, 31, "Input"],
+Cell[1183, 40, 181, 3, 31, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1352, 47, 187, 4, 31, "Input"],
-Cell[1542, 53, 2301, 63, 192, "Output"]
+Cell[1401, 48, 187, 4, 31, "Input"],
+Cell[1591, 54, 2301, 63, 152, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3929, 122, 173, 3, 31, "Input"],
+Cell[4105, 127, 226, 4, 31, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4368, 136, 260, 7, 31, "Input"],
+Cell[4631, 145, 1067, 18, 266, "Output"]
 }, Open  ]]
 }
 ]
 *)
 
 (* End of internal cache information *)
-
