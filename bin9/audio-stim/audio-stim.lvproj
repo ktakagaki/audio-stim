@@ -16,16 +16,11 @@
 		<Item Name="waveform" Type="Folder" URL="../../master10/waveform">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="as_genStimList.vi" Type="VI" URL="../as_genStimList.vi"/>
-		<Item Name="as_global.vi" Type="VI" URL="../as_global.vi"/>
-		<Item Name="as_loadParamList.vi" Type="VI" URL="../as_loadParamList.vi"/>
-		<Item Name="as_loadStimList.vi" Type="VI" URL="../as_loadStimList.vi"/>
-		<Item Name="as_saveParamList.vi" Type="VI" URL="../as_saveParamList.vi"/>
-		<Item Name="as_saveStimList.vi" Type="VI" URL="../as_saveStimList.vi"/>
-		<Item Name="asp_startLogFile.vi" Type="VI" URL="../asp_startLogFile.vi"/>
-		<Item Name="asp_writeLogEntry.vi" Type="VI" URL="../asp_writeLogEntry.vi"/>
-		<Item Name="audio-stim-play.vi" Type="VI" URL="../audio-stim-play.vi"/>
-		<Item Name="audio-stim.vi" Type="VI" URL="../audio-stim.vi"/>
+		<Item Name="as2_loadStimList.vi" Type="VI" URL="../as2_loadStimList.vi"/>
+		<Item Name="as2_saveStimList.vi" Type="VI" URL="../as2_saveStimList.vi"/>
+		<Item Name="as2_startLogFile.vi" Type="VI" URL="../as2_startLogFile.vi"/>
+		<Item Name="as2_writeLogEntry.vi" Type="VI" URL="../as2_writeLogEntry.vi"/>
+		<Item Name="audio-stim2.vi" Type="VI" URL="../audio-stim2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Append Waveforms.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Append Waveforms.vi"/>

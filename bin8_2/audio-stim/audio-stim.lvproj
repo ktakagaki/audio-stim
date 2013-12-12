@@ -11,24 +11,24 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="util" Type="Folder">
-			<Item Name="kt_breakArray9.131126.vi" Type="VI" URL="../../../util/kt_breakArray9.131126.vi"/>
-			<Item Name="kt_numberArray.131125.vi" Type="VI" URL="../../../util/kt_numberArray.131125.vi"/>
-			<Item Name="kt_randomDouble.131126.vi" Type="VI" URL="../../../util/kt_randomDouble.131126.vi"/>
-			<Item Name="kt_randomInt.131212.vi" Type="VI" URL="../../../util/kt_randomInt.131212.vi"/>
-			<Item Name="kt_randomizeArray.131125.vi" Type="VI" URL="../../../util/kt_randomizeArray.131125.vi"/>
+			<Item Name="kt_breakArray9.131126.vi" Type="VI" URL="../../util/kt_breakArray9.131126.vi"/>
+			<Item Name="kt_numberArray.131125.vi" Type="VI" URL="../../util/kt_numberArray.131125.vi"/>
+			<Item Name="kt_randomDouble.131126.vi" Type="VI" URL="../../util/kt_randomDouble.131126.vi"/>
+			<Item Name="kt_randomInt.131212.vi" Type="VI" URL="../../util/kt_randomInt.131212.vi"/>
+			<Item Name="kt_randomizeArray.131125.vi" Type="VI" URL="../../util/kt_randomizeArray.131125.vi"/>
 		</Item>
 		<Item Name="waveform" Type="Folder">
-			<Item Name="m10.wf.append.vi" Type="VI" URL="../../../../master10/waveform/m10.wf.append.vi"/>
-			<Item Name="m10.wf.append2.vi" Type="VI" URL="../../../../master10/waveform/m10.wf.append2.vi"/>
-			<Item Name="m10.wf.compose.vi" Type="VI" URL="../../../../master10/waveform/m10.wf.compose.vi"/>
-			<Item Name="m10.wf.getDtFs.vi" Type="VI" URL="../../../../master10/waveform/m10.wf.getDtFs.vi"/>
-			<Item Name="m10.wf.multipleOf2.vi" Type="VI" URL="../../../../master10/waveform/m10.wf.multipleOf2.vi"/>
-			<Item Name="m10.wf.ramp.vi" Type="VI" URL="../../../../master10/waveform/m10.wf.ramp.vi"/>
-			<Item Name="m10.wf.samplingInfo.vi" Type="VI" URL="../../../../master10/waveform/m10.wf.samplingInfo.vi"/>
-			<Item Name="m10.wfg.01DC.vi" Type="VI" URL="../../../../master10/waveform/m10.wfg.01DC.vi"/>
-			<Item Name="m10.wfg.03PT.vi" Type="VI" URL="../../../../master10/waveform/m10.wfg.03PT.vi"/>
-			<Item Name="m10.wfg.04FM.vi" Type="VI" URL="../../../../master10/waveform/m10.wfg.04FM.vi"/>
-			<Item Name="m10.wfg.vi" Type="VI" URL="../../../../master10/waveform/m10.wfg.vi"/>
+			<Item Name="m10.wf.append.vi" Type="VI" URL="../../../master10/waveform/m10.wf.append.vi"/>
+			<Item Name="m10.wf.append2.vi" Type="VI" URL="../../../master10/waveform/m10.wf.append2.vi"/>
+			<Item Name="m10.wf.compose.vi" Type="VI" URL="../../../master10/waveform/m10.wf.compose.vi"/>
+			<Item Name="m10.wf.getDtFs.vi" Type="VI" URL="../../../master10/waveform/m10.wf.getDtFs.vi"/>
+			<Item Name="m10.wf.multipleOf2.vi" Type="VI" URL="../../../master10/waveform/m10.wf.multipleOf2.vi"/>
+			<Item Name="m10.wf.ramp.vi" Type="VI" URL="../../../master10/waveform/m10.wf.ramp.vi"/>
+			<Item Name="m10.wf.samplingInfo.vi" Type="VI" URL="../../../master10/waveform/m10.wf.samplingInfo.vi"/>
+			<Item Name="m10.wfg.01DC.vi" Type="VI" URL="../../../master10/waveform/m10.wfg.01DC.vi"/>
+			<Item Name="m10.wfg.03PT.vi" Type="VI" URL="../../../master10/waveform/m10.wfg.03PT.vi"/>
+			<Item Name="m10.wfg.04FM.vi" Type="VI" URL="../../../master10/waveform/m10.wfg.04FM.vi"/>
+			<Item Name="m10.wfg.vi" Type="VI" URL="../../../master10/waveform/m10.wfg.vi"/>
 		</Item>
 		<Item Name="as2_loadStimList.vi" Type="VI" URL="as2_loadStimList.vi"/>
 		<Item Name="as2_saveStimList.vi" Type="VI" URL="as2_saveStimList.vi"/>
